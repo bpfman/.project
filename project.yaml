@@ -1,9 +1,8 @@
 # .project metadata for bpfman
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Add maturity_log entry with TOC issue URL
 # TODO: Set project_lead GitHub handle
-# TODO: Set cncf_slack_channel
+# TODO: Set slack_channels
 # TODO: Set identity_type under legal (has_dco, has_cla)
 # TODO: Add adopters list (ADOPTERS.md)
 # TODO: Add package_managers if distributed via registries
@@ -15,13 +14,16 @@ description: "An eBPF Manager for Linux and Kubernetes"
 type: "project"
 # TODO: Set project lead GitHub handle
 # project_lead: "github-handle"
-# TODO: Set CNCF Slack channel
-# cncf_slack_channel: "#bpfman"
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#bpfman"
+#     link: ""
+#     primary: true
 
 maturity_log:
   - phase: "sandbox"
     date: "2026-03-18T14:31:10Z"
-    issue: "https://github.com/cncf/toc/issues/XXX" # TODO: Set TOC issue URL
+    issue: "https://github.com/cncf/sandbox/issues/138"
 
 repositories:
   - "https://github.com/bpfman/bpfman"
