@@ -30,7 +30,7 @@ repositories:
 
 website: "https://bpfman.io/"
 
-artwork: "https://landscape.cncf.io/logos/bpfman_logo.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/bpfman"
 
 # TODO: Add ADOPTERS.md if your project tracks adopters
 # adopters:
